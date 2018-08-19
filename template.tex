@@ -1,0 +1,96 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Arun}{Joseph}
+\address{Flat No.: CF 6/204, KSHB Flats, Chevarambalam P.O}{Calicut}{673017}
+\phone[mobile]{+91~7356641712}
+\email{arunjosephkv2@gmail.com}
+\social[linkedin]{arun98joseph}
+\social[github]{arun-Joseph}
+\photo[64pt][0.4pt]{picture}
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experience}
+\cventry{May--July 2018}{Summer Intern}{Morgan Stanley}{Bangalore}{}{}
+
+\section{Education}
+\cventry{2015--2019}{Bachelor of Technology}{Computer Science and Engineering}{\newline National Institute of Technology, Calicut}{\textit{9.25}}{}  % arguments 3 to 6 can be left empty
+\cventry{2015}{Class XII}{CBSE}{\newline Kendriya Vidyalaya No.2, Calicut}{\textit{96.2\%}}{}
+\cventry{2013}{Class X}{CBSE}{\newline Kendriya Vidyalaya No.2, Calicut}{\textit{10.0/10.0}}{}
+
+\section{Projects}
+\cventry{April 2018}{Project Allocator}{}{\newline An Android application using Firebase which helps in requesting and accepting final year projects by students and faculties, respectively as part of Distributed Computing course in S6}{}{}
+\cventry{February 2018}{SILC (Simple Integer Language Compiler)}{}{\newline A Compiler which translates from eXpL (Experimental Language) to XSM Assembly Language built as a part of Compilers Laboratory course in S6}{}{}
+\cventry{October 2017}{XOS (Experimental Operating System)}{}{\newline An OS on XSM Simulator built as part of Operating Systems Laboratory course in S5}{}{}
+\cventry{October 2017}{Question Bank}{}{\newline A Web-based application for viewing past question papers for each department, course and year, as part of Database Management System course in S5}{}{}
+
+\section{Technical Skills}
+\cvlistitem{Programming Languages: Java, C/C++, C\#, Python, MIT Scheme (LISP)}
+\cvlistitem{Mobile Platforms: Android}
+\cvlistitem{Operating Systems: Linux(Ubuntu), Microsoft Windows, macOS}
+\cvlistitem{Database Management Systems: MySQL}
+\cvlistitem{Web Development: HTML, CSS, JavaScript, Angular}
+\cvlistitem{Version Control Systems: Git}
+
+\section{Technical Activities}
+\cvlistitem{Volunteer for FOSSMeet '17 and FOSSMeet '18}
+
+\section{Courses}
+\cventry{September 2017}{Android Basics}{Udacity}{}{\newline A series of 5 courses on Android Development for Beginners with topics including Android Basics, User Interface, Multiscreen Applications, Networking and Data Storage}{}
+\cventry{July 2017}{Machine Learning}{Coursera}{}{\newline This course provided a broad introduction to machine learning, data mining, and statistical pattern recognition with topics including supervised learning  and unsupervised learning}{}
+\cventry{June 2017}{How to Use Git and GitHub}{Udacity}{}{\newline This course introduces the use of version control in software development with Git as the Version Control System and GitHub to facilitate collaboration}{}
+\cventry{December 2016}{From Nand to Tetris}{Coursera}{}{\newline This is a project-centered course in which a modern computer system is built from the ground up. It is divided into six hands-on projects from constructing elementary logic gates all the way through creating a fully functioning general purpose computer}{}
+
+\section{References}
+\cvlistitem{Dr. Murali Krishnan K \newline Associate Professor \newline Department of Computer Science and Engineering, NIT Calicut \newline Email: kmurali@nitc.ac.in \newline Landline: +91 (495) 2286805}
+\cvlistitem{Mr. Sandeep Rawat \newline Vice President \newline Morgan Stanley, Bangalore \newline Email: sandeep.rawat@morganstanley.com}
+
+\section{}
+I hereby declare that the above-furnished information is true to the best of my knowledge and belief.
+\newline
+\newline
+\newline
+Arun Joseph
+
+\end{document}
+
+%% end of file `template.tex'.
